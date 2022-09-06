@@ -1,0 +1,103 @@
+1.
+Question 1
+What line of code is needed to create a pandas dataframe using a filename.csv file?
+
+1 point
+
+readCSV('filename')
+
+
+read_csv('filename.csv') ----
+
+
+read('filename')
+
+readCSV('filename.csv')
+
+
+
+
+2.
+Question 2
+What function invocation is needed to filter a dataframe so only BattingAverages in the range 0 to 500 are allowed (where 0 and 500 themselves are excluded)?
+
+1 point
+
+query('BattingAverages < .500 & > 0')
+
+
+query('BattingAverages < .500 & BattingAverages > 0' )  ----
+
+query('BattingAverages < .500' AND 'BattingAverages > 0' )
+
+
+query('BattingAverages < .500' & 'BattingAverages > 0' )
+
+
+
+
+
+3.
+Question 3
+What is the proper way to join two pandas dataframes using the id column for the merge?
+
+1 point
+
+pd.merge(df1, df2, how=’id’ )
+
+pd.join(df1, df2, on=’id’ )
+
+pd.merge(df1, df2, on=’id’ )  
+
+pd.join(df1, df2, how=’id’ )
+
+
+
+3.
+Question 3
+What is the proper way to join two pandas dataframes using the id column for the merge?
+
+1 point
+
+pd.merge(df1, df2, how=’id’ )
+
+pd.join(df1, df2, on=’id’ )
+
+pd.merge(df1, df2, on=’id’ )  -----
+
+pd.join(df1, df2, how=’id’ )
+
+
+
+
+4.
+Question 4
+What sort places the oldest age in a wine list at the top of the list?
+
+1 point
+
+wine_list.sort_values(by='age', descending=True)
+
+wine_list.sort_values(on='age')
+
+wine_list.sort_values(by='age', ascending=False)  ------
+
+wine_list.sort_values(by='age')
+
+
+
+
+
+5.
+Question 5
+What is needed to best show a possible correlation in two sets of data?
+
+1 point
+
+histogram
+
+scatter plot
+
+pyplot
+
+regression line   -----

@@ -1,0 +1,183 @@
+1.
+Question 1
+Which of these commands will let you observe the first 10 rows of your dataframe? Assume it is named "df".
+
+1 point
+
+1
+df.head(10)--
+
+1
+df.tail()
+
+1
+df.head()
+
+1
+df.tail(10)
+
+
+
+2.
+Question 2
+
+How would you describe the above plot of total price?
+
+1 point
+
+Continuous variable.  ----
+
+
+Categorical variable.
+
+
+Left-skewed.
+
+
+RIght-skewed.   ----
+
+3.
+Question 3
+
+The above plot is a regression plot of gross income and customer rating. There is a linear positive trend i.e. the higher the rating, the higher the gross income.
+
+1 point
+
+True
+
+
+False  ----
+
+4.
+Question 4
+What are potential way(s) of handling missing data?
+
+1 point
+
+Remove the rows associated with missing values  --
+
+
+Replace it with the mean of their respective columns.  ---
+
+
+Replace it with the mode of their respective columns.   ---
+
+5.
+Question 5
+sns.heatmap() can be used to visualize the directional magnitudes in a correlation matrix.
+
+1 point
+
+True   ----
+
+False
+
+Coursera Honor Code  Learn more
+I, Carlos Clavell, understand that submitting work that isn’t my own may result in permanent failure of this course or deactivation of my Coursera account.
+
+
+
+
+
+
+
+
+Congratulations! You passed!
+Grade received 100%
+Latest Submission Grade 100%
+To pass 80% or higher
+1.
+Question 1
+Which of these commands will let you observe the first 10 rows of your dataframe? Assume it is named "df".
+
+1 / 1 point
+
+1
+df.head(10)
+
+1
+df.tail()
+
+1
+df.head()
+
+1
+df.tail(10)
+Correct
+Correct! Since the default parameter of df.head() outputs the first 5 rows, we must specify the parameter to be 10.
+
+2.
+Question 2
+
+How would you describe the above plot of total price?
+
+1 / 1 point
+
+Continuous variable.
+
+Correct
+Correct! Since as total price can take any continuous value above 0.
+
+
+Categorical variable.
+
+
+Left-skewed.
+
+
+RIght-skewed.
+
+Correct
+Correct!  Total price is right-skewed as the right tail is longer.
+
+3.
+Question 3
+
+The above plot is a regression plot of gross income and customer rating. There is a linear positive trend i.e. the higher the rating, the higher the gross income.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct!  The trend line is almost flat, indicating there is an absence of a linear trend.
+
+4.
+Question 4
+What are potential way(s) of handling missing data?
+
+1 / 1 point
+
+Remove the rows associated with missing values
+
+Correct
+Correct! Although discouraged in most cases, sometimes, if adjustment or imputation of values (for the row) does not benefit the analysis or predictive model, the row can be removed.
+
+
+Replace it with the mean of their respective columns.
+
+Correct
+Correct! Mean imputation is a popular technique.
+
+
+Replace it with the mode of their respective columns.
+
+Correct
+Correct! Missing values in categorical columns are sometimes imputed with the mode of their respective columns.
+
+5.
+Question 5
+sns.heatmap() can be used to visualize the directional magnitudes in a correlation matrix.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct! As was shown in task 5, Seaborn's .heatmap can take in 'df.corr' as an input to plot a correlation matrix, where the color represents directional magnitude of correlation.
